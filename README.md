@@ -10,6 +10,20 @@
 
 ## 使用コマンド
 
+### CLI インストール
+
+#### npm
+
+```
+npm install -g @google/clasp
+```
+
+#### yarn
+
+```
+yarn global add @google/clasp
+```
+
 ### CLI ログイン
 
 ```
@@ -72,3 +86,4 @@ clasp open
 - [Google Apps Script の新しい 3 つの機能 その ③ CLI Tool Clasp - Qiita](https://qiita.com/soundTricker/items/354a993e354016945e44)
 - [npm と yarn のコマンド早見表 - Qiita](https://qiita.com/rubytomato@github/items/1696530bb9fd59aa28d8)
 - [【学習記録】clasp のインストールからデプロイまで - ざきの学習帳（旧 zackey 推し ）](https://kic-yuuki.hatenablog.com/entry/2018/12/09/114826)
+- [[GAS]スクリプト実行ユーザーのアカウント情報を取得するには : 逆引き Google Apps Script](http://www.bmoo.net/archives/2012/03/313067.html)
