@@ -25,6 +25,13 @@ search関数で取得したデータをメールで送信するための関数
 | option.itemLayout | <code>string</code> | アイテム毎の出力書式(HTML) |
 | option.bodyLayout | <code>string</code> | 文章全体の出力書式(HTML) |
 
+**Example**  
+```js
+mail({
+ title: "React.js関連情報",
+ itemList: search("React.js OR Next.js"),
+});
+```
 <a name="search"></a>
 
 ## search(word, option) ⇒ <code>Array</code>
@@ -41,3 +48,7 @@ yahoo検索で検索した結果をjson形式で取得するための関数
 | option.vd | <code>string</code> | 抽出期間 |
 | option.pages | <code>number</code> | Yahoo検索で取得するページ数 |
 
+**Example**  
+```js
+const json = search("React.js OR Next.js");
+```

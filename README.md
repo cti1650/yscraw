@@ -23,9 +23,9 @@ Yahoo 検索結果を実行したユーザーのメールアドレス宛に送�
 
 ```
 function testFunc(){
-  YahooSearchCraw.mail({
+  YahooSearchCrawlingLibrary.mail({
     'title':'React.js関連情報',
-    'itemList':YahooSearchCraw.search('React.js OR Next.js'),
+    'itemList':YahooSearchCrawlingLibrary.search('React.js OR Next.js'),
   });
 }
 ```

@@ -1,9 +1,4 @@
-function _testCase() {
-  mail({
-    title: "React.js関連情報",
-    itemList: search("React.js OR Next.js"),
-  });
-}
+function _testCase() {}
 
 /**
  * search関数で取得したデータをメールで送信するための関数
@@ -13,6 +8,11 @@ function _testCase() {
  * @param {Array} option.itemList - 送信するjsonデータ
  * @param {string} option.itemLayout - アイテム毎の出力書式(HTML)
  * @param {string} option.bodyLayout - 文章全体の出力書式(HTML)
+ * @example
+ * mail({
+ *  title: "React.js関連情報",
+ *  itemList: search("React.js OR Next.js"),
+ * });
  */
 function mail(option = {}) {
   const defaultOption = {
@@ -63,6 +63,8 @@ function mail(option = {}) {
  * @param {string} option.vd - 抽出期間
  * @param {number} option.pages - Yahoo検索で取得するページ数
  * @return {Array} - Yahoo検索結果をjson形式で取得 [{title,url}]
+ * @example
+ * const json = search("React.js OR Next.js");
  */
 function search(word, option = {}) {
   let result = [];
