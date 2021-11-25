@@ -1,8 +1,34 @@
-# yscraw
+# Yahoo Search Crawling Library
 
 ## このツールについて
 
 このツールは Yahoo 検索から情報を取得して自分自身にメール送信するために作成したライブラリです！
+
+## 使用方法
+
+### スクリプト ID
+
+```
+1EZpEBW7RavtpwLvGYAwsHqiBw6-5iz74JxkEwTYbDeqEFY_d0VmI_h-k
+```
+
+導入方法に関しては以下のサイトがわかりやすいです！
+
+[GAS のおすすめライブラリ一覧！使い方やインポート手順についても解説！](https://monoblog.jp/archives/6019#GAS)
+
+### ライブラリの使い方
+
+以下のスクリプトを作成し実行することで、
+Yahoo 検索結果を実行したユーザーのメールアドレス宛に送付できます。
+
+```
+function testFunc(){
+  YahooSearchCraw.mail({
+    'title':'React.js関連情報',
+    'itemList':YahooSearchCraw.search('React.js OR Next.js'),
+  });
+}
+```
 
 ## 使用時の注意事項
 
@@ -90,3 +116,4 @@ clasp open
 - [Google Apps Script でクラス型のコードを書いたさいのスクリプトエディタでの補完への対処方法 (Bad Hack) - ChangeLog - noissefnoc](https://noissefnoc.hateblo.jp/entry/2019/04/21/190000?utm_source=feed)
 - [TypeScript: Documentation - JSDoc リファレンス](https://www.typescriptlang.org/ja/docs/handbook/jsdoc-supported-types.html#param%E3%81%A8returns)
 - [より良い JSDoc ドキュメントの作成](https://ichi.pro/yori-yoi-jsdoc-dokyumento-no-sakusei-153357804391883)
+- [GAS のおすすめライブラリ一覧！使い方やインポート手順についても解説！ | monoblog](https://monoblog.jp/archives/6019)
