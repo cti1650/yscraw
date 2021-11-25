@@ -1,14 +1,10 @@
-const testCase = () => {
+function _testCase() {
   mail({
     title: "React.js関連情報",
     itemList: search("React.js OR Next.js"),
   });
-};
+}
 
-// https://qiita.com/soundTricker/items/354a993e354016945e44
-// https://qiita.com/rf_p/items/7492375ddd684ba734f8
-// https://belltree.life/google-apps-script-library-publish/
-// https://ascii.jp/elem/000/000/971/971037/
 function mail(option = {}) {
   const defaultOption = {
     to: Session.getActiveUser().getUserLoginId(),
@@ -50,8 +46,6 @@ function mail(option = {}) {
   });
 }
 
-// https://auto-worker.com/blog/?p=2923
-// https://www.pnkts.net/2019/12/05/gas-web-scraping
 function search(word, option = {}) {
   let result = [];
   const defaultOption = {
