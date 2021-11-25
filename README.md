@@ -87,3 +87,6 @@ clasp open
 - [npm と yarn のコマンド早見表 - Qiita](https://qiita.com/rubytomato@github/items/1696530bb9fd59aa28d8)
 - [【学習記録】clasp のインストールからデプロイまで - ざきの学習帳（旧 zackey 推し ）](https://kic-yuuki.hatenablog.com/entry/2018/12/09/114826)
 - [[GAS]スクリプト実行ユーザーのアカウント情報を取得するには : 逆引き Google Apps Script](http://www.bmoo.net/archives/2012/03/313067.html)
+- [Google Apps Script でクラス型のコードを書いたさいのスクリプトエディタでの補完への対処方法 (Bad Hack) - ChangeLog - noissefnoc](https://noissefnoc.hateblo.jp/entry/2019/04/21/190000?utm_source=feed)
+- [TypeScript: Documentation - JSDoc リファレンス](https://www.typescriptlang.org/ja/docs/handbook/jsdoc-supported-types.html#param%E3%81%A8returns)
+- [より良い JSDoc ドキュメントの作成](https://ichi.pro/yori-yoi-jsdoc-dokyumento-no-sakusei-153357804391883)
