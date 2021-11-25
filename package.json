@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "deploy": "clasp push && clasp deploy && yarn jsdoc",
     "jsdoc": "jsdoc -a all -c jsdoc.json -r -R README.md src/*.js -d docs/jsdoc && jsdoc2md --files src/*.js > docs/API.md"
   },
   "devDependencies": {
